@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OneNote Online</title>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="header" class="header">
+        <h1>OneNote Online</h1>
+        <a onclick="new_note()">New Note</a>
+        <a onclick="document.getElementById('file').click()">Import Note</a>
+        <a onclick="save_note()">Save Note</a>
+        <input type="file" accept="text/plain" id="file" style="display: none;" onchange="open_file(this.files)">
+    </div>
+    <div id="main_app" class="main_app">
+        <form action="post">
+            <textarea id='page' class="page" type="text" name="document" onchange="save_state()" maxlength="800"></textarea>
+            <!--<button type="button" onclick="load_state()">Save Note</button>-->
+        </form>
+    </div>
+    <a>Check my other project in </a><a href="https://github.com/pl-plt/">my github</a>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
