@@ -1,6 +1,6 @@
 # OneNote Online app
 
-## Live demo here: https://codepen.io/pl-plt/pen/ExzYKMO
+## Live demo here: https://codepen.io/pl-plt/full/ExzYKMO
 
 ### Else you can install it manually
 ### Get started
